@@ -1,4 +1,5 @@
-const swiper = new Swiper('.swiper', {
+$(document).ready(function () {
+var swiper = new Swiper('.swiper_bnr', {
 
   autoplay: {
      delay: 3000,
@@ -26,8 +27,52 @@ const swiper = new Swiper('.swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper_bnr .swiper-button-next',
+    prevEl: '.swiper_bnr .swiper-button-prev',
   },
 
 });
+
+var swiper = new Swiper(".swiper-courses", {
+  slidesPerView: 1,
+  spaceBetween: 15,
+    mousewheel: false,
+    speed:1200,
+  centeredSlides: false,
+  freeMode: false,
+  grabCursor: true,
+  loop: false,
+ // autoplay:false,
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+  navigation: {
+    nextEl: ".spresence .swiper-button-next",
+    prevEl: ".spresence .swiper-button-prev"
+ 
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1.1,
+         spaceBetween: 20
+        
+    },
+    768: {
+      slidesPerView: 1.1,
+         spaceBetween: 20
+      
+    },
+     
+      992: {
+      slidesPerView: 1,
+         
+      
+    },
+     
+  }
+});  
+    
+    });
