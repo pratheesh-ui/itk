@@ -21,7 +21,7 @@
              return 'no-repeat';
          });
           $(".jsbg").css('background-position', function() {
-             return 'center';
+             return 'top center';
          });
      }
     

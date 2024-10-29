@@ -5,7 +5,7 @@ var swiper = new Swiper('.swiper_bnr', {
      delay: 3000,
      disableOnInteraction: false
    },
-   //autoplay:false,
+//   autoplay:false,
 
   effect: 'fade', //"slide", "fade", "cube", "coverflow", "flip"
 
