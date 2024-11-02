@@ -33,7 +33,7 @@ var swiper = new Swiper('.swiper_bnr', {
 
 });
 
-var swiper = new Swiper(".swiper-courses", {
+var swiper = new Swiper(".swiper-presence", {
   slidesPerView: 1,
   spaceBetween: 15,
     mousewheel: false,
@@ -42,8 +42,6 @@ var swiper = new Swiper(".swiper-courses", {
   freeMode: false,
   grabCursor: true,
   loop: false,
- // autoplay:false,
-
   autoplay: {
     delay: 3000,
     disableOnInteraction: false
@@ -57,13 +55,15 @@ var swiper = new Swiper(".swiper-courses", {
   breakpoints: {
     0: {
       slidesPerView: 1.1,
-         spaceBetween: 20
-        
+         spaceBetween: 20,
+         autoplay:false,
+        autoHeight: true
     },
     768: {
       slidesPerView: 1.1,
-         spaceBetween: 20
-      
+         spaceBetween: 20,
+      autoplay:false,
+        autoHeight: true
     },
      
       992: {
